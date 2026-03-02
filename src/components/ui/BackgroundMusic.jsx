@@ -9,7 +9,7 @@ export default function BackgroundMusic() {
     useEffect(() => {
         // TIPS: Masukkan file musik (.mp3) ke folder 'public' lalu ganti URL di bawah 
         // Contoh: new Audio("/musik-kita.mp3") 
-        const audio = new Audio("https://cdn.pixabay.com/download/audio/2022/10/25/audio_22026af24e.mp3?filename=ambient-piano-and-strings-10711.mp3");
+        const audio = new Audio("public/musik.mp3");
         audio.loop = true;
         audio.volume = 0.3;
         audioRef.current = audio;

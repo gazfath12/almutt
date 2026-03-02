@@ -35,7 +35,7 @@ export default function Navbar() {
                     <Link to="/" className="text-2xl font-display font-bold text-gradient flex items-center gap-2">
                         <span className="text-glow">ALMUTT</span>
                         <span className="text-sm px-2 py-0.5 rounded-full bg-neon-purple/20 text-neon-purple border border-neon-purple/50">
-                            Gen 28
+                            Gen 19
                         </span>
                     </Link>
 

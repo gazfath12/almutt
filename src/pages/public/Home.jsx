@@ -6,6 +6,13 @@ import AnimatedPage from '../../components/layout/AnimatedPage';
 import { supabase } from '../../lib/supabase';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade, Pagination } from 'swiper/modules';
+import heroImage1 from '../../assets/hero1.png'; 
+import heroImage2 from '../../assets/hero2.png'; 
+import heroImage3 from '../../assets/hero3.png'; 
+
+// const heroImage1 = require('./assets/nama.img/image1.jpg');
+
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -21,9 +28,9 @@ const dummyPreviewMembers = Array.from({ length: 8 }).map((_, i) => ({
 }));
 
 const heroImages = [
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80",
-    "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1600&q=80",
-    "https://images.unsplash.com/photo-1525921429624-479b6a29d810?w=1600&q=80"
+    heroImage1,
+    heroImage2,
+    heroImage3
 ];
 
 const features = [
@@ -111,10 +118,10 @@ export default function Home() {
                         className="mb-6 relative"
                     >
                         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-2 tracking-tighter drop-shadow-2xl">
-                            WE ARE <span className="text-gradient">GEN 28</span>
+                             <span className="text-gradient">The Beneficiares</span>
                         </h1>
                         <p className="text-xl md:text-2xl text-text-primary/90 font-display font-medium tracking-wide uppercase mt-4 drop-shadow-lg">
-                            Bukan Sekedar Angkatan, Kita Adalah Keluarga.
+                            Bukan Sekedar Angkatan, Kita Adalah Teman.
                         </p>
                     </motion.div>
 
