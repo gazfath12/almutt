@@ -9,6 +9,10 @@ import { Autoplay, EffectFade, Pagination } from 'swiper/modules';
 import heroImage1 from '../../assets/hero1.png'; 
 import heroImage2 from '../../assets/hero2.png'; 
 import heroImage3 from '../../assets/hero3.png'; 
+import heroImage4 from '../../assets/hero-4.png';
+import heroImage5 from '../../assets/hero-5.jpeg';
+import heroImage6 from '../../assets/hero-6.jpeg';
+import heroImage7 from '../../assets/hero-7.jpeg';
 
 // const heroImage1 = require('./assets/nama.img/image1.jpg');
 
@@ -30,7 +34,11 @@ const dummyPreviewMembers = Array.from({ length: 8 }).map((_, i) => ({
 const heroImages = [
     heroImage1,
     heroImage2,
-    heroImage3
+    heroImage3,
+    heroImage4,
+    heroImage5,
+    heroImage6,
+    heroImage7
 ];
 
 const features = [
@@ -101,7 +109,7 @@ export default function Home() {
                                 <img
                                     src={img}
                                     alt={`Hero ${index + 1}`}
-                                    className="h-full w-full object-cover"
+                                    className="h-full w-full object-cover brightness-[0.8] contrast-[1.1]"
                                 />
                                 <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
                             </div>
